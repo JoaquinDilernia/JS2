@@ -1,0 +1,32 @@
+ /* CONTACTO*/
+/* ESTILOS PARA EL BANNER PRINCIPAL Y SUS ELEMENTOS */
+#button-enviar{
+    padding:14px 20px; 
+    border-radius:8px;
+    background: $color-principal;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 300px;
+}
+#formulario{
+text-align: center;
+
+}
+.titulo1{
+    text-align: center;
+    font-weight: bold; 
+}
+.titulo1 h1{
+
+    color: $color-terciario;
+    font-size:map-get($font-sz, font-xl );
+}
+.titulo1 p{
+
+    color:$color-principal;
+    font-size: map-get($font-sz, font-xl );
+    padding: 15px;
+    margin: 15px;
+}

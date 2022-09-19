@@ -1,0 +1,20 @@
+/* FOOTER */
+footer{
+    background-color:$color-principal;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 15px;
+}
+footer p{
+    padding: 10px 0px;
+    text-align: center;
+    font-size: map-get($font-sz, font-xs );
+}
+footer a{
+    padding: 10px 0px;
+    text-align: center;
+    font-size: map-get($font-sz, font-xs );
+}

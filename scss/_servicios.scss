@@ -1,0 +1,69 @@
+/* SERVICIOS*/
+/* ESTILOS PARA EL BANNER PRINCIPAL Y SUS ELEMENTOS */
+main{
+    grid-area: inicio;
+}
+
+.titulo{
+    text-align: center;
+    font-weight: bold; 
+    margin-top: 80px;
+
+}
+.titulo h1{
+    color: $color-terciario;
+    font-size: map-get($font-sz, font-l );
+
+}
+.titulo p{
+
+    color:$color-principal;
+    font-size:map-get($font-sz, font-xxxl );
+    padding: 5px;
+    margin-bottom: 60px;
+}
+.contenedor{
+    display: flex;
+    background-color: #CBCBCB;
+    padding: 15px;
+    margin: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 5%;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+.hijo{
+    width: 300px;
+    height: 300px;
+    background-color: white;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+}
+.hijo img{
+    align-items: center;
+    margin-top: 15px;
+    width: 100%;
+}
+
+@media screen and (max-width:450px){
+    .titulo h1{
+        color: $color-terciario;
+        font-size:map-get($font-sz, font-xs );
+    }
+    .titulo p{
+
+        color:$color-principal;
+        font-size:map-get($font-sz, font-l );
+        padding: 5px;
+        margin-bottom: 60px;
+    } 
+}

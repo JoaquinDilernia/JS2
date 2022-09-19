@@ -1,0 +1,13 @@
+/* header */
+.navbar{
+    background-color: $color-principal;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 15px;
+}
+.navbar a{
+    text-decoration: none;
+    padding: 0px 5px;
+    font-size: map-get($font-sz, font-s );
+}

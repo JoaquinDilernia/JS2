@@ -1,1 +1,35 @@
-@import './header.scss';
+@import 'variables';
+@import 'header';
+@import 'index';
+@import 'nosotros';
+@import 'portafolio';
+@import 'servicios';
+@import 'contacto';
+@import 'footer';
+@import url('https://fonts.googleapis.com/css2? family= Kanit:wght@100 & display=swap');
+
+
+
+
+   
+ 
+   
+   
+@keyframes movimientoCard{
+    0%{
+        transform: translateY(-25px);
+        -webkit-transform: translateY(-25px);
+        -moz-transform: translateY(-25px);
+        -ms-transform: translateY(-25px);
+        -o-transform: translateY(-25px);
+        opacity: 0;
+}
+100%{
+    transform: translateY(0px);
+    -webkit-transform: translateY(0px);
+    -moz-transform: translateY(0px);
+    -ms-transform: translateY(0px);
+    -o-transform: translateY(0px);
+    opacity: 1;
+}
+}

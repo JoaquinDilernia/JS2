@@ -1,0 +1,34 @@
+ /* SOBRE NOSOTROS*/
+ #banner-nosotros{
+    height:100vh;
+    background-image: url('../imagenes/sobreNosotros.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed; 
+
+}
+#banner-nosotros{
+    text-align:right;
+
+}
+.texto{
+    margin-left: 50%;
+    color: $color-principal;
+
+
+}
+.texto h1{
+
+    font-size:map-get($font-sz, font-xl );
+    font-weight: bold;
+    margin-right: 300px;
+
+}
+.texto p{
+
+    font-size:map-get($font-sz, font-m );
+    font-weight: bold; 
+    padding: 30px;
+    margin: 30px;
+
+}
