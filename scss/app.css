@@ -22,10 +22,10 @@
 
 /* HERO */
 #hero {
-  height: 900px;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  height: 900px;
   background-image: url(../imagenes/BannerPrincipal.png);
   background-repeat: no-repeat;
   background-size: cover;
@@ -56,10 +56,10 @@
 
 @media (min-width: 1200px) {
   #hero {
-    height: 1000px;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    height: 1000px;
     background-image: url(../imagenes/BannerPrincipal.png);
     background-repeat: no-repeat;
     background-size: cover;
