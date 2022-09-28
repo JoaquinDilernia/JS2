@@ -1,0 +1,20 @@
+﻿En el archivo index.html sumé el SEO con las siguientes características:
+* Descripción: Potencia tu negocio con estrategio de Marketing digital, SEO, Publucidad y todas las herramientas que te brinda JS
+* Palabras clave: MARKETING DIGITAL, SEO, PUBLICIDAD, DESARROLLO WEB
+* Encabezado: JS -HOME
+En el archivo portafolio..html sumé el SEO con las siguientes características:
+* Descripción: Potencia tu negocio con estrategio de Marketing digital, SEO, Publucidad y todas las herramientas que te brinda JS
+* Palabras clave: MARKETING DIGITAL, SEO, PUBLICIDAD, DESARROLLO WEB
+* Encabezado: JS -Portafolio
+En el archivo servicio.html sumé el SEO con las siguientes características:
+* Descripción: Potencia tu negocio con estrategio de Marketing digital, SEO, Publucidad y todas las herramientas que te brinda JS
+* Palabras clave: MARKETING DIGITAL, SEO, PUBLICIDAD, DESARROLLO WEB
+* Encabezado: JS -Servicio
+En el archivo contacto.html sumé el SEO con las siguientes características:
+* Descripción: Potencia tu negocio con estrategio de Marketing digital, SEO, Publucidad y todas las herramientas que te brinda JS
+* Palabras clave: MARKETING DIGITAL, SEO, PUBLICIDAD, DESARROLLO WEB
+* Encabezado: JS -Contacto
+En el archivo sobrenosotros.html sumé el SEO con las siguientes características:
+* Descripción: Potencia tu negocio con estrategio de Marketing digital, SEO, Publucidad y todas las herramientas que te brinda JS
+* Palabras clave: MARKETING DIGITAL, SEO, PUBLICIDAD, DESARROLLO WEB
+* Encabezado: JS -Sobre Nosotros

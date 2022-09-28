@@ -1,32 +1,60 @@
  /* CONTACTO*/
 /* ESTILOS PARA EL BANNER PRINCIPAL Y SUS ELEMENTOS */
-#button-enviar{
-    padding:14px 20px; 
-    border-radius:8px;
-    background: $color-principal;
-    color: white;
-    text-decoration: none;
+.title-page-contact{
+    text-transform: uppercase;
     text-align: center;
-    margin-top: 50px;
-    margin-bottom: 300px;
+    font-weight: bold;
 }
-#formulario{
-text-align: center;
+.contact-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 110vh;
+    color: $color-secundario;
+    background-image:url("../imagenes/fondocontacto.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 1em;
+}
+.data-form{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    max-width: 25em;
+}
+.data-form-textarea{
+    margin: 0.25em;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.data-form label{
+    @extend .data-form-textarea;
+}
+.btn-enviar{
+    @extend .data-form-textarea;
+}
+.data-form input{
+    @extend .data-form-textarea;
+}
 
+.data-form input, .data-form textarea, .btn-enviar{
+    border: 0px solid $color-secundario;
+    border-radius: 10px;
+    width: 100%;
+    padding: 0.5em;
+    box-shadow: 5px 10px 10px rgba(82, 82, 82, 0.489);
 }
-.titulo1{
-    text-align: center;
-    font-weight: bold; 
+.btn-enviar{
+    height: 2.5em;
+    color: $color-secundario;
+    background-color: $color-principal;
 }
-.titulo1 h1{
-
-    color: $color-terciario;
-    font-size:map-get($font-sz, font-xl );
-}
-.titulo1 p{
-
-    color:$color-principal;
-    font-size: map-get($font-sz, font-xl );
-    padding: 15px;
-    margin: 15px;
+.hr-contact{
+    color: $color-secundario;
+    border: solid 0.5px;
+    width: 90%;
+    margin: 0.5em 0 0.5em; 
 }

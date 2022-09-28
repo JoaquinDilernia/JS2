@@ -3,13 +3,11 @@
     flex-direction: $direccion;
     justify-content: center;
 }
-
-
 /* HERO */
 #hero{
     @include flexbox(column);
-    height: 900px;
-    background-image: url(../imagenes/BannerPrincipal.png);
+    height: 1000px;
+    background-image: url('../imagenes/fonodoinicio.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed; 
@@ -17,7 +15,7 @@
 }
 #hero h1{
     color:$color-principal;
-    font-size: map-get($font-sz, font-s );
+    font-size: map-get($font-sz, font-s);
 }
 #hero a {
     margin: 0px 32% ;
@@ -29,20 +27,19 @@
 }
 #hero p{
     color: $color-terciario;
-    font-size: map-get($font-sz, font-xs );
+    font-size: map-get($font-sz, font-xs);
     padding: 10px;
     margin:10px;
 }
 @media (min-width:1200px)  {
         #hero{
     @include flexbox(column);
-    height: 1000px;
-    background-image: url(../imagenes/BannerPrincipal.png);
+    height: 1200px;
+    background-image: url('../imagenes/fonodoinicio.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed; 
-    text-align: left;
-    margin-left: 5%;
+    text-align: center;
         }
     #hero h1{
             color:$color-principal;
@@ -56,14 +53,18 @@
     }
 
     #hero a {
-        padding: 10px 20px; 
-        margin-left: 6%;
-        margin-right: 85%;
-        border-radius:8px;
+        padding: 10px 20px;
+        margin-left: 45%;
+        margin-right: 45%;
+        border-radius:10x;
         background: $color-principal;
         color: white;
         text-decoration: none;
-    } 
+        -webkit-border-radius:10x;
+        -moz-border-radius:10x;
+        -ms-border-radius:10x;
+        -o-border-radius:10x;
+} 
 }
 /* SERVICIOS */
 #servicios{
@@ -88,7 +89,7 @@ text-align: center;
 
 }
 .card{
-    background-color:#CBCBCB;
+    background-color:white;
     border-radius: 30px;
     padding: 15px;
     margin: 10px 5px;
@@ -164,10 +165,10 @@ text-align: center;
     text-align: center;
     padding-top: 300px;
     height:900px;
-    background-image: url('../imagenes/sobreNosotros.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed; 
+    background-image:url("../imagenes/fondos.jpg");
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-attachment:fixed;
 }
 #sobrenosotrosCTA h2{
     font-size: map-get($font-sz, font-l );

@@ -1,34 +1,25 @@
  /* SOBRE NOSOTROS*/
- #banner-nosotros{
-    height:100vh;
-    background-image: url('../imagenes/sobreNosotros.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed; 
-
-}
-#banner-nosotros{
-    text-align:right;
-
+ .banner-nosotros{
+    padding: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $primary-color;
+    color: $secondary-color;
 }
 .texto{
-    margin-left: 50%;
-    color: $color-principal;
-
-
+    line-height: 1.5;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: $color-principal;
+    color: $color-secundario;
 }
 .texto h1{
-
-    font-size:map-get($font-sz, font-xl );
-    font-weight: bold;
-    margin-right: 300px;
-
+    padding: 1em 1em 0 1em;
 }
 .texto p{
-
-    font-size:map-get($font-sz, font-m );
-    font-weight: bold; 
-    padding: 30px;
-    margin: 30px;
-
+    padding: 0 1em 0 1em;
 }
+
+

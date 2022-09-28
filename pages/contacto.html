@@ -4,8 +4,14 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Potencia tu negocio con estrategio de Marketing digital, SEO, Publucidad y todas las herramientas que te brinda JS">
-    <meta name="keywords" content="MARKETING DIGITAL, SEO, PUBLICIDAD, DESARROLLO WEB">
+    <meta
+      name="description"
+      content="Potencia tu negocio con estrategio de Marketing digital, SEO, Publucidad y todas las herramientas que te brinda JS"
+    />
+    <meta
+      name="keywords"
+      content="MARKETING DIGITAL, SEO, PUBLICIDAD, DESARROLLO WEB"
+    />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
@@ -18,7 +24,7 @@
     />
 
     <!-- Link al archivo css -->
-    <link rel="stylesheet" href="../scss/app.css"> 
+    <link rel="stylesheet" href="../scss/app.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
@@ -28,80 +34,95 @@
   <body class="animate__animated animate__fadeInLeft">
     <header class="animate__animated animate__fadeInLeft">
       <nav class="navbar navbar navbar-expand-lg bg-light">
-          <div class="container-fluid">
-            <a class="navbar-brand" href="../index.html">
-              <img src="../imagenes/LogoBlanco.png" alt="logo" width="60px">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="../index.html">
+            <img src="../imagenes/logo_coral-removebg-preview.png" alt="logo" width="60px" />
           </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav ms-auto me-0  mb-2 mb-lg-0">
-                <li class="nav-item">
-                  <a class="nav-link " aria-current="page" href="../index.html">Inicio</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="servicios.html">Servicios</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="portafolio.html">Portafolio</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="sobrenosotros.html">Nosotros</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link active" href="contacto.html">Contacto</a>
-                </li>
-              </ul>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto me-0 mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="../index.html"
+                  >Inicio</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="servicios.html">Servicios</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="portafolio.html">Portafolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="sobrenosotros.html">Nosotros</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="contacto.html">Contacto</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+   
+    <section class="contact-container">
+
+      <div class="title-page-contact">
+          <h2>CONTACT</h2>
+          <p>For more info about tours and collabs</p>
+      </div>
+      <form class="data-form">
+        <hr class="hr-contact">
+        <div class="mb-3 container-fluid text-center">
+          <label for="nombre" class="form-label">nombre</label>
+          <input type="text" class="form-control" id="name" placeholder="nombre">
+        </div>
+        <div class="mb-3 container-fluid text-center">
+          <label for="apellido" class="form-label">apellido</label>
+          <input type="text" class="form-control" id="surname" placeholder="apellido">
+        </div>
+        <div class="mb-3 container-fluid text-center">
+          <label for="email" class="form-label">email</label>
+          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nombre@ejemplo.com">
+        </div>
+        <div class="mb-3 container-fluid text-center">
+          <label for="mensaje" class="form-label">mensaje</label>
+          <textarea class="form-control .data-form-textarea" id="message" rows="3" required></textarea>
+        </div>
+        <hr class="hr-contact">
+        <div class="mb-3 container-fluid text-center">
+          <button type="button" class="btn-enviar center" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            Enviar
+          </button>
+          <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog ">
+              <div class="modal-content">
+                <div class="modal-header text-dark">
+                  <h5 class="modal-title" id="exampleModalLabel">Gracias por contactarnos</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body text-dark">
+                  We respond as soon as possible!
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary  bg-dark text-light" data-bs-dismiss="modal">Close</button>
+                </div>
+              </div>
             </div>
           </div>
-        </nav>
-  </header>
-    <section class="contenedorContacto">
-      <div class="titulo1">
-        <h1>Contactanos</h1>
-        <p>Recibe Asesoramiento Gratis</p>
-      </div>
-      <form
-        action="link de accion del formulario"
-        method="get"
-        enctype="multipart/form-data"
-      >
-        <!-- Formulario de Contacto -->
-        <div class="formulario">
-          <br />
-          <div>
-            <label for="nombre"><b>Nombre</b></label>
-            <br />
-            <input type="text" id="nombre" name="nombre" />
-          </div>
-          <br />
-          <div>
-            <label for="apellido"><b>Apellido</b></label>
-            <br />
-            <input type="text" id="apellido" name="apellido" />
-          </div>
-          <br />
-          <div>
-            <label for="email"><b>Email</b></label>
-            <br />
-            <input type="email" id="email" name="email" />
-          </div>
-          <br />
-          <div>
-            <label for="mensaje"><b>Escribe un comentario aqui</b></label>
-            <br />
-            <textarea
-              name="mensaje"
-              id="mensaje"
-              cols="30"
-              rows="10"
-            ></textarea>
-          </div>
-          <input class="button-enviar" type="submit" value="Enviar" />
         </div>
+        
       </form>
-    </section>
+  </section>
     <footer class="footer">
       <div>
         <a target="_blank" href="https://www.instagram.com/">INSTAGRAM</a>
@@ -113,12 +134,11 @@
         <p>+54 9 1164212370</p>
       </div>
     </footer>
-
-
-    <script
-    src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
-    crossorigin="anonymous"
-  ></script>
   </body>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+      crossorigin="anonymous"
+    ></script>
+
 </html>
