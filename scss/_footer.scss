@@ -1,20 +1,26 @@
 /* FOOTER */
 footer{
-    background-color:$color-principal;
-    color: white;
+    padding: 1em;
+    font-size:map-get($font-sz, font-s);
     display: flex;
-    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    background-color: white;
+    color: $color-secundario;
+}
+.socials-footer{
+    list-style: none;
+    display: flex;
     justify-content: center;
     align-items: center;
-    padding: 20px 15px;
+    margin: 0;
+    padding: 0;
 }
-footer p{
-    padding: 10px 0px;
-    text-align: center;
-    font-size: map-get($font-sz, font-xs );
+.social{
+    width: 70px;
+    padding: 0.5em;
 }
-footer a{
-    padding: 10px 0px;
+.copy{
     text-align: center;
-    font-size: map-get($font-sz, font-xs );
 }
